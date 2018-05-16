@@ -1,0 +1,38 @@
+body{
+    /*    background: url(http://www.snut.fr/wp-content/uploads/2015/11/image-de-fond-2-1024x640.jpg) no-repeat center center fixed;
+        background-size: cover;*/
+}
+.container{
+    width:100%;
+    max-width: 100%;
+    min-height: 500px;
+    background-color: white;
+}
+nav{
+    position: fixed!important;
+    top:0;
+    left:0;
+    width:100%;
+}
+#main{
+    margin-top: 3em;
+    margin-left: 200px;
+    width: 100%;
+}
+
+@media screen and (min-width:991px){
+    .container{
+        display: flex;
+    }
+    nav{
+/*        position: fixed;
+        top:0;
+        left:0;*/
+        max-width: 200px;
+        height: 100vh;
+    }
+    nav ul{
+        display: flex!important;
+        flex-direction: column!important;
+    }
+}
